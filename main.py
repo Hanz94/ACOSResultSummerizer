@@ -1,16 +1,20 @@
-# This is a sample Python script.
+def read_file_line_by_line():
+    file1 = open('result.txt', 'r')
+    lines = file1.readlines()
+    item_list = []
+    for line in lines:
+        line = line.strip()
+        # if not is_empty(line)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    file1.close()
+    return item_list
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def is_empty(str):
+    return str == ""
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    positive_sentiments = {"MISCELLANEOUS": 0, "EXPERIENCE": 0, "PRICE":0, "SERVICE":0 , "FOOD":0 , "ATTRACTIONS":0, "RIDES": 0 }
+    negative_sentiments = {"MISCELLANEOUS": 0, "EXPERIENCE": 0, "PRICE":0, "SERVICE":0 , "FOOD":0 , "ATTRACTIONS":0, "RIDES": 0 }
+    read_file_line_by_line(positive_sentiments, negative_sentiments)

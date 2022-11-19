@@ -16,6 +16,7 @@ def calculate_ratings(pos_list, neg_list):
         print(cat)
         print(rating)
 
+
 def read_file_line_by_line(pos_list, neg_list):
     file1 = open('result.txt', 'r')
     lines = file1.readlines()

@@ -1560,11 +1560,13 @@ we all love harry potter in my family and this made a great surprise christmas p
 
 most rides are virtual rides to which i have a hard time embracing 1,2 -1,-1
 
-RIDES#0	RIDES#2	
+RIDES#0
+RIDES#2
 
 most rides are virtual rides to which i have a hard time embracing 3,5 -1,-1
 
-RIDES#0	RIDES#2	
+RIDES#0
+RIDES#2
 
 it was a tour of a truly memorable experience 3,4 7,8
 
